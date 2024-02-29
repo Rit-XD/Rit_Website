@@ -1,0 +1,39 @@
+@import '@/style';
+
+.header {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &-row {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 24px;
+
+    &-right {
+      display: none;
+
+      @include media($ipad-land) {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &-ipad {
+    display: none;
+
+    @include media($ipad-land) {
+      display: block;
+    }
+
+    @include media($desktop) {
+      display: none;
+    }
+  }
+}

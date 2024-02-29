@@ -1,0 +1,14 @@
+@import '@/style';
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-inline: 30px;
+  position: relative;
+
+  @include media($ipad-land) {
+    max-width: 1248px;
+    padding-inline: 24px;
+  }
+}

@@ -1,0 +1,75 @@
+@import '@/style';
+
+.title {
+  color: #333332;
+  line-height: 1.25;
+  font-weight: 700;
+  word-break: break-word;
+  font-family: var(--sourceSerifPro);
+
+  &.mod-h1 {
+    font-size: 70px;
+    white-space: pre-line;
+    letter-spacing: -10 / 1000em;
+    color: #303247;
+
+    @include media($ipad-port) {
+      font-size: 87.4px;
+      line-height: 91.21/87.4;
+    }
+  }
+
+  &.mod-h2 {
+    font-size: 32px;
+    line-height: 40px;
+
+    @include media($ipad-land) {
+      font-size: 46px;
+      line-height: (48/46);
+    }
+  }
+
+  &.mod-h3 {
+    font-size: 24px;
+    line-height: 28px;
+
+    @include media($ipad-land) {
+      font-size: 24px;
+      line-height: 30/24;
+    }
+  }
+
+  &.mod-h4 {
+    font-size: 20px;
+    line-height: 24px;
+    @include media($ipad-land) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #0585ff;
+      margin-top: 22px;
+    }
+
+    &.mod-h5 {
+      font-weight: 600;
+      color: #203754;
+      font-size: 17px;
+      line-height: 25/17;
+    }
+  }
+
+  &.mod-inherit {
+    color: inherit;
+  }
+  &.mod-blue {
+    color: #0585ff;
+  }
+  &.mod-black {
+    color: #303247;
+  }
+}

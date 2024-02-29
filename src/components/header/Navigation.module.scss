@@ -1,0 +1,74 @@
+@import '@/style';
+
+.navigation {
+  &.mod-desktop {
+    @include media($ipad-land) {
+      display: none;
+    }
+    @include media($desktop) {
+      display: block;
+    }
+  }
+
+  &-items {
+    @include media($ipad-land) {
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      padding: 0;
+
+      .mod-ipad & {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 37px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e4e5e6;
+      }
+    }
+
+    &-item {
+      position: relative;
+      display: block;
+      padding-top: 20px;
+
+      @include media($ipad-land) {
+        padding-top: 0;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 2px;
+        background: #0585ff;
+        display: block;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: left center;
+        transition: 0.25s ease-out;
+
+        @include media($ipad-land) {
+          left: 50%;
+          transform: translateX(-50%) scaleX(0);
+          transform-origin: center center;
+        }
+      }
+
+      &.is-active {
+        font-weight: 700;
+
+        &:after {
+          transform: scaleX(1);
+        }
+      }
+
+      @include media($ipad-land) {
+        &:hover:after,
+        &.is-active:after {
+          transform: translateX(-50%) scaleX(1);
+        }
+      }
+    }
+  }
+}

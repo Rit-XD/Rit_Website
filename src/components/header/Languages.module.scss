@@ -1,0 +1,40 @@
+@import '@/style';
+
+.lang {
+  @include media($ipad-land) {
+    display: none;
+  }
+  display: flex;
+  gap: 10px;
+}
+
+.langdesktop {
+  display: none;
+  position: relative;
+
+  @include media($ipad-land) {
+    display: flex;
+  }
+  &-button {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    flex-shrink: 0;
+    &-icon {
+      color: var(--blue);
+    }
+  }
+  &-menu {
+    position: absolute;
+    will-change: transform;
+    top: 100%;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+    &-item {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+}

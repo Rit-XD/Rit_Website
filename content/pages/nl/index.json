@@ -1,0 +1,30 @@
+{
+  "title": "Homepage",
+  "hero": {
+    "title": "",
+    "text": [],
+    "image": {
+      "id": "2d2exmVoaxbSafTl6gwoetHUDE5",
+      "type": "image",
+      "entry": "2d2exmpHg9AdCR4deuLDMjSVbxS"
+    }
+  },
+  "blocks": [],
+  "metadata": {
+    "title": "",
+    "description": "",
+    "openGraph": {
+      "title": "",
+      "image": {},
+      "description": ""
+    }
+  },
+  "@alinea": {
+    "entryId": "2d2etqKVfWFO8kR7I60AZO7EBjs",
+    "type": "Home",
+    "index": "a0",
+    "seeded": "/nl/index.json",
+    "i18nId": "2d2etpnuGHZnFj3K067nnLsDMoI",
+    "root": "pages"
+  }
+}
