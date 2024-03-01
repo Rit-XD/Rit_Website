@@ -9,7 +9,7 @@ import {Infer} from 'alinea'
 import {usePathname} from 'next/navigation'
 import React from 'react'
 import css from './NotFound.module.scss'
-import {NotFoundSchema} from './NotFound.shema'
+import {NotFoundSchema} from './NotFound.schema'
 
 const styles = fromModule(css)
 

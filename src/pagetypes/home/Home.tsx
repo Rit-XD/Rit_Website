@@ -1,14 +1,12 @@
 import {Blocks} from '@/blocks/Blocks'
 import {cms} from '@/cms'
 import {Image} from '@/ui/Image'
-import {WebText} from '@/ui/WebText'
 import {fromModule} from '@/utils/styler/Styler'
 import {notFound} from 'next/navigation'
 import css from './Home.module.scss'
-import {Hero} from '@/components/hero/Hero'
 import {HomeSchema} from './Home.schema'
 
-type ParamsType = {params: {locale: string}}
+type ParamsType = {params: {locale: string; slug: string[]}}
 
 const styles = fromModule(css)
 export default async function Home({params}: ParamsType) {
@@ -18,7 +16,7 @@ export default async function Home({params}: ParamsType) {
   return (
     <div>
       <Image {...page.hero.image} sizes="100vw" />
-      <Blocks blocks={page.blocks} params={{...params, slug: []}} />
+      <Blocks blocks={page.blocks} params={params} />
     </div>
   )
 }

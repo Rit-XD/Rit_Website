@@ -1,8 +1,8 @@
-import alinea from 'alinea'
+import {Field} from 'alinea'
 
-export const HeroSchema = alinea.object('Hero', {
+export const HeroSchema = Field.object('Hero', {
   fields: {
-    title: alinea.text('Title', {multiline: true}),
-    image: alinea.image('Image', {shared: true})
+    title: Field.text('Title', {multiline: true}),
+    image: Field.image('Image', {shared: true})
   }
 })

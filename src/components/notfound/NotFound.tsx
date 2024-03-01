@@ -1,5 +1,5 @@
 import {cms} from '@/cms'
-import {NotFoundSchema} from './NotFound.shema'
+import {NotFoundSchema} from './NotFound.schema'
 import {NotFoundClient} from './NotFoundClient'
 
 export default async function NotFound() {

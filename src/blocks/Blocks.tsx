@@ -1,16 +1,15 @@
 import {BlockSchema} from '@/blocks/Block.schema'
+import {Partners} from '@/blocks/partners/Partners'
+import {Splash} from '@/blocks/splash/Splash'
 import {Text} from '@/blocks/text/Text'
-import {Locale} from '@/utils/locale'
 import {styler} from '@/utils/styler/Styler'
 import {Infer} from 'alinea'
 import React from 'react'
-import {Splash} from './splash/Splash'
-import {Partners} from './partners/Partners'
 
 const styles = styler('blocks')
 
 export type BlockProps = Infer<typeof BlockSchema>
-export type ParamsType = {locale: Locale; slug: string[]}
+export type ParamsType = {locale: string; slug: string[]}
 
 export const Blocks: React.FC<{
   blocks: BlockProps[]

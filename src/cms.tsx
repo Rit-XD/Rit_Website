@@ -1,18 +1,11 @@
 import {IcRoundSettings} from '@/components/alinea/IcRoundSettings'
 import {FooterSchema} from '@/components/footer/Footer.schema'
 import {HeaderSchema} from '@/components/header/Header.schema'
+import {NotFoundSchema} from '@/components/notfound/NotFound.schema'
 import {HomeSchema} from '@/pagetypes/home/Home.schema'
 import {PageSchema} from '@/pagetypes/page/Page.schema'
-import {Config, Field} from 'alinea'
+import {Config} from 'alinea'
 import {createCMS} from 'alinea/next'
-import {NotFoundSchema} from './components/notfound/NotFound.schema'
-
-const Page = Config.type('Page', {
-  fields: {
-    title: Field.text('Title'),
-    path: Field.path('Path')
-  }
-})
 
 const locales = ['nl', 'en']
 
@@ -40,21 +33,21 @@ export const cms = createCMS({
       mediaDir: 'public',
       roots: {
         pages: Config.root('Pages', {
+          i18n: {locales},
           contains: ['Page'],
           entries: {
             index: Config.page(HomeSchema({title: 'Homepage'}))
-          },
-          i18n: {locales}
+          }
         }),
         general: Config.root('General', {
-          contains: ['Header', 'Footer', 'NotFound'],
+          i18n: {locales},
           icon: IcRoundSettings,
+          contains: ['Header', 'Footer', 'NotFound'],
           entries: {
             header: Config.page(HeaderSchema({title: 'Header'})),
             footer: Config.page(FooterSchema({title: 'Footer'})),
             'not-found': Config.page(NotFoundSchema({title: 'Page not found'}))
-          },
-          i18n: {locales}
+          }
         }),
         media: Config.media()
       }
