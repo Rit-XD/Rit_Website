@@ -5,7 +5,7 @@ import {Locale} from '@/utils/locale'
 import {fromModule} from 'alinea/ui'
 import Link from 'next/link'
 import React from 'react'
-import logo from '../../../public/logo.svg'
+import logo from '../../../public/rit.svg'
 import css from './Logo.module.scss'
 
 const styles = fromModule(css)
