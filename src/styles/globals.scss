@@ -6,11 +6,11 @@
       format('woff');
 }
 
-@mixin m-fluid($min, $max, $from, $to) {
-  font-size: calc(
-    ($min * 1px + ($max - $min) * (100vw - $from * 1px) / ($to - $from))
-  );
-}
+// @mixin m-fluid($min, $max, $from, $to) {
+//   font-size: calc(
+//     ($min * 1px + ($max - $min) * (100vw - $from * 1px) / ($to - $from))
+//   );
+// }
 
 :root {
   --blue: #0585ff;
@@ -31,9 +31,9 @@ body {
 
 html {
   font-size: 24px;
-  @media (min-width: 320px) and (max-width: 750px) {
-    @include m-fluid(320 / 750 * 22, 22, 320, 750);
-  }
+  // @media (min-width: 320px) and (max-width: 750px) {
+  //   @include m-fluid(320 / 750 * 22, 22, 320, 750);
+  // }
 }
 
 body {
