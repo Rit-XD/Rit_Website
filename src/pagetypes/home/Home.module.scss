@@ -1,8 +1,9 @@
 @import '@/style';
 
 .body {
+  overflow: hidden;
   height: 100vh;
-  background-image: url('../../../public/image-20-0.2d2exmpHg9AdCR4deuLDMjSVbxS.jpg');
+  background-image: url('../../../public/background_splash.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,17 +1,21 @@
+@import '@/style';
+
 .button {
   font-family: 'Inter', sans-serif;
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
-  padding: 15px 36px;
+  padding: 10px 36px;
   border-radius: 50px;
   transition: 0.3s ease-out;
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   line-height: (27/17);
   font-weight: 600;
-  fill: rgba(255, 255, 255, 0.1);
-  border: 3px solid white;
+  border: 2px solid white;
+  @include media($ipad-land) {
+    font-size: 12px;
+  }
 
   @media (hover: hover) {
     &:hover,

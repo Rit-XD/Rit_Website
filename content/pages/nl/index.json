@@ -9,12 +9,13 @@
       "id": "2dML1SxJTMUgpLgcjZTYe2NipR7",
       "index": "a0",
       "type": "Splash",
-      "title": "",
+      "title": "Wij vinden voor u een rit!",
       "text": "Maak een keuze...",
       "button_left": {
         "id": "2dML8nM7WjUpu1nMJIvDMBPAsfn",
         "type": "entry",
-        "entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ"
+        "entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+        "label": ""
       },
       "button_right": {
         "id": "2dML9CgB2iVq8xk7LcKWYeU4otH",
