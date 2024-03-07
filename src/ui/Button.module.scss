@@ -1,21 +1,23 @@
 .button {
+  font-family: 'Inter', sans-serif;
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
-  padding: 23px 30px;
-  border-radius: 37px;
-  border: 1px solid transparent;
-  background-color: var(--blue);
+  padding: 15px 36px;
+  border-radius: 50px;
   transition: 0.3s ease-out;
   color: #fff;
   font-size: 17px;
   line-height: (27/17);
   font-weight: 600;
+  fill: rgba(255, 255, 255, 0.1);
+  border: 3px solid white;
 
   @media (hover: hover) {
     &:hover,
     &:focus-visible {
-      background-color: var(--green);
+      background-color: white;
+      color: orange;
     }
   }
 }

@@ -1,6 +1,6 @@
 import {Blocks} from '@/blocks/Blocks'
 import {cms} from '@/cms'
-import {Image} from '@/ui/Image'
+import {Logo} from '@/components/logo/Logo'
 import {fromModule} from '@/utils/styler/Styler'
 import {notFound} from 'next/navigation'
 import css from './Home.module.scss'
@@ -14,8 +14,8 @@ export default async function Home({params}: ParamsType) {
   if (!page) notFound()
 
   return (
-    <div>
-      <Image {...page.hero.image} sizes="100vw" />
+    <div className={styles.body()}>
+      <Logo />
       <Blocks blocks={page.blocks} params={params} />
     </div>
   )

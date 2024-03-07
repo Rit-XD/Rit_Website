@@ -1,4 +1,3 @@
-import {Container} from '@/ui/Container'
 import {Image} from '@/ui/Image'
 import {Title} from '@/ui/Title'
 import {fromModule} from '@/utils/styler/Styler'

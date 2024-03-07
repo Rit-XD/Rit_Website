@@ -1,11 +1,10 @@
 @import '@/style';
 
-.image {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  inset: 0;
+.body {
+  height: 100vh;
+  background-image: url('../../../public/image-20-0.2d2exmpHg9AdCR4deuLDMjSVbxS.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   object-fit: cover;
-  object-position: 48% 100%;
-  z-index: -1;
 }

@@ -1,18 +1,47 @@
-.logo {
+@import '@/style';
+
+.container {
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  width: 230px;
-  & p {
+  justify-content: center;
+  @include media($ipad-land) {
+    margin-left: 83px;
+    justify-content: start;
+  }
+}
+
+.logo {
+  margin-top: 52px;
+  &-title {
     font-weight: 700;
     font-size: 23.43px;
     line-height: 24.44px;
     color: #203754;
-    white-space: pre-line;
   }
+  @include media($ipad-land) {
+    margin-top: 63px;
+  }
+}
+.logoContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include media($ipad-land) {
+    align-items: flex-start;
+  }
+
   & img {
-    width: 80px;
+    width: 140px;
     margin-right: 15px;
     flex-shrink: 0;
+  }
+  & p {
+    font-family: 'CoconPro', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
   }
 }

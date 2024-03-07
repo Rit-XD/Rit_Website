@@ -2,14 +2,27 @@
   "title": "Homepage",
   "hero": {
     "title": "",
-    "text": [],
-    "image": {
-      "id": "2d2exmVoaxbSafTl6gwoetHUDE5",
-      "type": "image",
-      "entry": "2d2exmpHg9AdCR4deuLDMjSVbxS"
-    }
+    "image": {}
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "id": "2dML1SxJTMUgpLgcjZTYe2NipR7",
+      "index": "a0",
+      "type": "Splash",
+      "title": "",
+      "text": "Maak een keuze...",
+      "button_left": {
+        "id": "2dML8nM7WjUpu1nMJIvDMBPAsfn",
+        "type": "entry",
+        "entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ"
+      },
+      "button_right": {
+        "id": "2dML9CgB2iVq8xk7LcKWYeU4otH",
+        "type": "entry",
+        "entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS"
+      }
+    }
+  ],
   "metadata": {
     "title": "",
     "description": "",
