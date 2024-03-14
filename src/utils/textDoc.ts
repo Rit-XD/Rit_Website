@@ -1,9 +1,12 @@
-import { TextDoc } from "alinea"
+import {Node, TextDoc} from 'alinea/core/TextDoc'
 
-export function isEmptyTextDoc(doc: TextDoc<{}>) {
-  return (
-    !doc ||
-    doc.length === 0 ||
-    (doc[0].type === "paragraph" && doc[0].content?.length === 0)
-  )
+export function isEmptyTextDoc(doc: TextDoc) {
+  if (!doc || doc.length === 0) return true
+  if (doc.length > 1) return false
+  const first = doc[0]
+  const emptyParagraph =
+    Node.isElement(first) &&
+    first._type === 'paragraph' &&
+    first.content?.length === 0
+  return emptyParagraph
 }

@@ -1,9 +1,8 @@
-import {Field} from 'alinea'
+import {Config, Field} from 'alinea'
 import {Entry} from 'alinea/core'
 
-export const HeroSchema = Field.object('Hero', {
+export const HeaderSchema = Config.type('Header', {
   fields: {
-    image: Field.image('Image', {shared: true}),
     title: Field.text('Title', {multiline: true}),
     button: Field.entry('Button', {
       width: 0.5,

@@ -16,13 +16,15 @@ export function Splash({block}: {block: SplashProps}) {
       {text && <p>{text}</p>}
       <div className={styles.splash.buttons()}>
         {button_left && (
-          <Button href={button_left?.url || '/'}>
-            {button_left?.label || button_left?.title || 'Zorgcentra'}
+          <Button href={button_left?.href || '/'}>
+            {button_left?.fields.label || button_left?.title || 'Zorgcentra'}
           </Button>
         )}
         {button_right && (
-          <Button href={button_right?.url || '/'}>
-            {button_right?.label || button_right?.title || 'Vrijwilligers'}
+          <Button href={button_right?.href || '/'}>
+            {button_right?.fields.label ||
+              button_right?.title ||
+              'Vrijwilligers'}
           </Button>
         )}
       </div>

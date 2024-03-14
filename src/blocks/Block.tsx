@@ -7,7 +7,7 @@ import {BlockProps} from './Blocks'
 const styles = styler('block')
 
 type Props = HTMLProps<HTMLDivElement> & {
-  type?: BlockProps['type']
+  type?: BlockProps['_type']
 }
 
 export const Block = ({children, type, ...props}: Props) => {

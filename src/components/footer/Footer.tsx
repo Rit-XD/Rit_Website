@@ -30,10 +30,10 @@ export const Footer: React.FC<FooterProps> = ({data, language}) => {
                 return (
                   <Link
                     className={styles.footer.links.link()}
-                    href={link.url}
+                    href={link.href}
                     key={index}
                   >
-                    {link.label || link.title || link.url}
+                    {link.fields.label || link.title || link.href}
                   </Link>
                 )
               })}

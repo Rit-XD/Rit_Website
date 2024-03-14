@@ -1,27 +1,27 @@
-"use client"
+'use client'
 
-import { fromModule } from "@/utils/styler/Styler"
-import { ImageReference } from "alinea"
-import { imageBlurUrl } from "alinea/ui"
-import NextImage, { ImageProps as NextImageProps } from "next/image"
-import { CSSProperties, useMemo } from "react"
-import css from "./Image.module.scss"
+import {fromModule} from '@/utils/styler/Styler'
+import {ImageLink} from 'alinea'
+import {imageBlurUrl} from 'alinea/ui'
+import NextImage, {ImageProps as NextImageProps} from 'next/image'
+import {CSSProperties, useMemo} from 'react'
+import css from './Image.module.scss'
 
 const styles = fromModule(css)
 
 interface ImageProps extends NextImageProps {}
 
 export const Image: React.FC<
-  Omit<ImageProps, "alt"> & {
+  Omit<ImageProps, 'alt'> & {
     alt?: string
-    averageColor?: ImageReference["averageColor"]
-    focus?: ImageReference["focus"]
-    thumbHash?: ImageReference["thumbHash"]
-    title?: ImageReference["title"]
+    averageColor?: ImageLink['averageColor']
+    focus?: ImageLink['focus']
+    thumbHash?: ImageLink['thumbHash']
+    title?: ImageLink['title']
   }
-> = ({ className, averageColor, focus, thumbHash, title, ...props }) => {
-  const alt = props?.alt || title || ""
-  const blurUrl = useMemo(() => imageBlurUrl({ thumbHash }), [thumbHash])
+> = ({className, averageColor, focus, thumbHash, title, ...props}) => {
+  const alt = props?.alt || title || ''
+  const blurUrl = useMemo(() => imageBlurUrl({thumbHash}), [thumbHash])
 
   delete (props as any).blurHeight
   delete (props as any).blurWidth
@@ -35,12 +35,12 @@ export const Image: React.FC<
   if (!props?.src) return null
 
   if (props.fill) {
-    const objectFit: CSSProperties["objectFit"] =
-      props.style?.["objectFit"] || "cover"
+    const objectFit: CSSProperties['objectFit'] =
+      props.style?.['objectFit'] || 'cover'
     const imageRatio: number = Number(props.width) / Number(props.height)
     const objectFitContain: boolean =
-      objectFit === "contain" && (imageRatio < 1 || imageRatio > 2)
-    const objectPosition: CSSProperties["objectPosition"] =
+      objectFit === 'contain' && (imageRatio < 1 || imageRatio > 2)
+    const objectPosition: CSSProperties['objectPosition'] =
       focus && `${focus.x * 100}% ${focus.y * 100}%`
 
     return (
@@ -50,7 +50,7 @@ export const Image: React.FC<
             src={blurUrl}
             fill
             alt="BlurHash"
-            style={{ objectFit: "cover" }}
+            style={{objectFit: 'cover'}}
           />
         )}
         <NextImage
@@ -59,12 +59,12 @@ export const Image: React.FC<
           height={undefined}
           alt={alt}
           blurDataURL={blurUrl}
-          placeholder={blurUrl && !objectFitContain ? "blur" : undefined}
+          placeholder={blurUrl && !objectFitContain ? 'blur' : undefined}
           className={styles.image.with(className)()}
           style={{
             ...props.style,
-            objectFit: objectFitContain ? "contain" : "cover",
-            objectPosition,
+            objectFit: objectFitContain ? 'contain' : 'cover',
+            objectPosition
           }}
         />
       </>
@@ -76,7 +76,7 @@ export const Image: React.FC<
       {...props}
       alt={alt}
       blurDataURL={blurUrl}
-      placeholder={blurUrl ? "blur" : undefined}
+      placeholder={blurUrl ? 'blur' : undefined}
       className={styles.image.with(className)()}
     />
   )

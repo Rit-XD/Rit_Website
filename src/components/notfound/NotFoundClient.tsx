@@ -39,10 +39,10 @@ export const NotFoundClient: React.FC<{
             <WebText doc={text} className={styles.notfound.content.text()} />
           )}
           <Button
-            href={button?.url || '/'}
+            href={button?.href || '/'}
             className={styles.notfound.content.button()}
           >
-            {button?.label || button?.title || 'Home'}
+            {button?.fields.label || button?.title || 'Home'}
           </Button>
         </div>
       </Container>

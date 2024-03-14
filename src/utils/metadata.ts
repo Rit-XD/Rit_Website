@@ -1,4 +1,4 @@
-import {ImageReference} from 'alinea'
+import {ImageLink} from 'alinea'
 import {Metadata} from 'next'
 
 type dataType = {
@@ -9,7 +9,7 @@ type dataType = {
     description: string
     openGraph: {
       title: string
-      image: ImageReference
+      image: ImageLink
       description: string
     }
   }

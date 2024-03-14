@@ -26,7 +26,7 @@ export const Navigation: React.FC<NavigationProps> = ({
     <nav className={styles.navigation.mod(mod).with(className)()}>
       <ul className={styles.navigation.items()}>
         {navigation.map((item, index) => {
-          const isActive = pathname === item.url
+          const isActive = pathname === item.href
           return (
             <li
               className={styles.navigation.items.item.is({
@@ -34,7 +34,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               })()}
               key={index}
             >
-              <Link href={item.url}>{item.label || item.title}</Link>
+              <Link href={item.href}>{item.fields.label || item.title}</Link>
             </li>
           )
         })}
