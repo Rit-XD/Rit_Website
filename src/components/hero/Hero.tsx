@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({image, title, button}) => {
         </div>
       )}
       {title && <Title.H1 className={styles.hero.title()}>{title}</Title.H1>}
-      <Button className={styles.hero.button()}>{button.fields.label}</Button>
+      <Button className={styles.hero.button()}>{button?.fields.label}</Button>
     </div>
   )
 }
