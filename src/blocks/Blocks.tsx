@@ -6,6 +6,7 @@ import {styler} from '@/utils/styler/Styler'
 import {Infer} from 'alinea'
 import {ListRow} from 'alinea/core/shape/ListShape'
 import React from 'react'
+import {Advantages} from './advantages/Advantages'
 
 const styles = styler('blocks')
 
@@ -43,6 +44,8 @@ export async function BlocksBlock({
       return <Partners block={block} />
     case 'Splash':
       return <Splash block={block} />
+    case 'Advantages':
+      return <Advantages block={block} />
     default: {
       console.error(`No view found for block: ${block['type']}`)
       return null

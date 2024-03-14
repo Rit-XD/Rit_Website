@@ -1,0 +1,32 @@
+@import '@/style';
+
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  @include media($desktop) {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  &-title {
+    margin-bottom: 1px;
+    font-size: 24px !important;
+    color: white !important;
+  }
+  &-image {
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    img {
+      height: 70%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &-button {
+    margin-top: 50px;
+    @include media($desktop) {
+      margin-top: 16px;
+    }
+  }
+}
