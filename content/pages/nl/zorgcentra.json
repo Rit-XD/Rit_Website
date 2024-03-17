@@ -40,7 +40,7 @@
             "_type": "image",
             "_entry": "2dgLmnVlnhIpqbxGm04HBlF7qdN"
           },
-          "description": "Vraag snel en gemakkelijk ritten aan bij vrijwillers voor rolstoel\ngebruikers"
+          "description": "Vraag snel en gemakkelijk ritten aan bij vrijwilligers voor rolstoel\ngebruikers"
         },
         {
           "_id": "2dgLoUJx9SXMnRTCfA2ElRSlLyb",
@@ -74,6 +74,63 @@
             "_entry": "2dgLmla5xxpygB2dyQL6p0zkVgv"
           },
           "description": "Eigen vervoer moet niet meer ingezet worden voor minder \ngrote gevallen"
+        }
+      ]
+    },
+    {
+      "_id": "2doZEFn3wii6thW2u5N1xssfDs8",
+      "_index": "a1",
+      "_type": "Partners",
+      "title": "Om partner van Rit te worden heb je nodig:",
+      "image": {
+        "_id": "2doZJL3QFEzHoG35TC9W1U5sFxu",
+        "_type": "image",
+        "_entry": "2doZJIA99ufLUILkjwjIJbYwsSq"
+      },
+      "partners": [
+        {
+          "_id": "2doZJanQxih17bYBjmTiL2iRWsb",
+          "_index": "a0",
+          "_type": "Partners",
+          "icon": {
+            "_id": "2doZY2mR8ENnAYDozGV3jvfuFNW",
+            "_type": "image",
+            "_entry": "2doZXYSI6slR8sJxB5J2dmY9Wdf"
+          },
+          "description": "Je bent een erkend zorgcentrum"
+        },
+        {
+          "_id": "2doZZCmDpVg8VF3I9jg1WF1XkbH",
+          "_index": "a1",
+          "_type": "Partners",
+          "icon": {
+            "_id": "2doZZdYJ9OI2WUoMqBtRhCa0iUR",
+            "_type": "image",
+            "_entry": "2dgLmkzLvQPiY8ZjYLsKJ4f8Yx2"
+          },
+          "description": "Balie staat altijd klaar voor rolstoelgebruikers"
+        },
+        {
+          "_id": "2doZamQh70Aw68OoB63pHhcT3H2",
+          "_index": "a2",
+          "_type": "Partners",
+          "icon": {
+            "_id": "2doZb1uk8eKxMw610V1m5ZzffWc",
+            "_type": "image",
+            "_entry": "2doZXYZwzBso63ULGUsbPJEJzCz"
+          },
+          "description": "Gegevens op onze webapp"
+        },
+        {
+          "_id": "2doZbkWQ643C4XjnNnzHy4beA1s",
+          "_index": "a3",
+          "_type": "Partners",
+          "icon": {
+            "_id": "2doZgV9pog8dQ04aMzdM20wDSvO",
+            "_type": "image",
+            "_entry": "2doZgWBm7WKQlcxtfwIqlcsPR9o"
+          },
+          "description": "Vrije parkeerplaatsen in de buurt"
         }
       ]
     }
