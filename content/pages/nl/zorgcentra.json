@@ -133,6 +133,24 @@
           "description": "Vrije parkeerplaatsen in de buurt"
         }
       ]
+    },
+    {
+      "_id": "2dofzYC4zAVsQ8vfTm8LLaZtKFx",
+      "_index": "a2",
+      "_type": "Cta",
+      "title": "Geïnteresseerd?",
+      "description": "Heb je interesse om onze partner te worden\nen onze dienst aan jullie klanten aan te bieden?",
+      "button": {
+        "_id": "2dogAs2NZgzmRVXUbsJMDWs3Z0q",
+        "_type": "entry",
+        "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
+        "label": "Neem contact op"
+      },
+      "image": {
+        "_id": "2dogHX8kgrUzIKs6c6oqu0WUA4P",
+        "_type": "image",
+        "_entry": "2dogHR9rDUJ9jnJjONiCN8WrRVn"
+      }
     }
   ],
   "metadata": {

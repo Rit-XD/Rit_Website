@@ -1,5 +1,6 @@
 import {Config} from 'alinea'
 import {AdvantageSchema} from './advantages/Advantages.schema'
+import {CtaSchema} from './cta/Cta.schema'
 import {PartnerSchema} from './partners/Partners.schema'
 import {SplashSchema} from './splash/Splash.schema'
 import {TextSchema} from './text/Text.schema'
@@ -9,6 +10,7 @@ export const BlockSchema = Config.schema({
     Text: TextSchema,
     Partners: PartnerSchema,
     Splash: SplashSchema,
-    Advantages: AdvantageSchema
+    Advantages: AdvantageSchema,
+    Cta: CtaSchema
   }
 })

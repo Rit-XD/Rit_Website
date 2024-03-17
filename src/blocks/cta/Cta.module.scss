@@ -1,0 +1,32 @@
+@import '@/style';
+
+.cta {
+  text-align: center;
+  margin-top: 80px;
+  @include media($desktop) {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  &-title {
+    font-size: 20px;
+    text-align: center;
+    @include media($desktop) {
+    }
+  }
+
+  &-description {
+    font-size: 14px;
+  }
+
+  &-image {
+    border-radius: 10%;
+  }
+
+  &-button {
+    margin-top: 50px;
+    @include media($desktop) {
+      margin-top: 16px;
+    }
+  }
+}
