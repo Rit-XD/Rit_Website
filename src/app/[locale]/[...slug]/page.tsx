@@ -1,7 +1,9 @@
 import {cms} from '@/cms'
+import {Footer} from '@/components/footer/Footer'
+import {FooterSchema} from '@/components/footer/Footer.schema'
 import Page from '@/pagetypes/page/Page'
 import {PageSchema} from '@/pagetypes/page/Page.schema'
-import {Locale} from '@/utils/locale'
+import {Locale, defaultLocale, locales} from '@/utils/locale'
 import getMetadata from '@/utils/metadata'
 import {Query} from 'alinea'
 import {Entry} from 'alinea/core'
@@ -43,6 +45,11 @@ export async function generateMetadata({
 }
 
 export default async function RegularPage({params}: ParamsType) {
+  const locale = locales.includes(params?.locale)
+    ? params.locale
+    : defaultLocale
+  const footer = await cms.locale(locale).get(FooterSchema())
+
   const url = `/${params.locale}/${params.slug
     .map(decodeURIComponent)
     .join('/')}`
@@ -55,7 +62,12 @@ export default async function RegularPage({params}: ParamsType) {
 
   switch (page.type) {
     case 'Page':
-      return <Page url={url} params={params} />
+      return (
+        <>
+          <Page url={url} params={params} />
+          <Footer data={footer} language={params.locale} />
+        </>
+      )
   }
   notFound()
 }

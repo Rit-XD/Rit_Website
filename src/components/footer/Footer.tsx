@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({data, language}) => {
     <Container>
       <footer className={styles.footer()}>
         <div>
-          <Logo language={language} />
+          <Logo />
           {links?.length > 0 && (
             <div className={styles.footer.links()}>
               {links.map((link, index) => {

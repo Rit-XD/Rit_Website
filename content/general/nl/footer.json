@@ -1,10 +1,12 @@
 {
-  "@alinea": {
-    "entryId": "2d2etnPT376eIhx5kvBPcoA3UMO",
-    "type": "Footer",
-    "index": "a0",
-    "seeded": "/nl/footer.json",
-    "i18nId": "2d2etm2kaD5g5FjOrOEvxGbzwKz",
-    "root": "general"
-  }
+  "_id": "2d2etnPT376eIhx5kvBPcoA3UMO",
+  "_type": "Footer",
+  "_index": "a1",
+  "_i18nId": "2d2etm2kaD5g5FjOrOEvxGbzwKz",
+  "_seeded": "/nl/footer.json",
+  "_root": "general",
+  "title": "Footer",
+  "description": [],
+  "navigation": [],
+  "links": []
 }

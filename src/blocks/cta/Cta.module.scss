@@ -40,13 +40,14 @@
     &-button {
       color: white;
       background-color: #00202f;
-      border: 2px solid #00202f;
+      border: 2px solid #00202f !important;
       margin-top: 0;
 
-      &:hover {
-        color: inherit;
-        background-color: inherit;
-        filter: invert;
+      &:hover,
+      &:focus-visible {
+        color: inherit !important;
+        background-color: inherit !important;
+        filter: invert !important;
       }
       @include media($desktop) {
         margin-top: 16px;
