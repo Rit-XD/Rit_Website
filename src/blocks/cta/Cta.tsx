@@ -16,11 +16,15 @@ export function Cta({block}: {block: CtaProps}) {
   return (
     <Container>
       <div className={styles.cta()}>
-        {title && <h2 className={styles.cta.title()}>{title}</h2>}
-        {description && (
-          <p className={styles.cta.description()}>{description}</p>
-        )}
-        <Button className={styles.cta.button()}>{button?.fields.label}</Button>
+        <div className={styles.cta.content()}>
+          {title && <h2 className={styles.cta.content.title()}>{title}</h2>}
+          {description && (
+            <p className={styles.cta.content.description()}>{description}</p>
+          )}
+          <Button className={styles.cta.content.button()}>
+            {button?.fields.label}
+          </Button>
+        </div>
         {image?.src && (
           <div className={styles.cta.image()}>
             <Image {...image} sizes="100vw" />
