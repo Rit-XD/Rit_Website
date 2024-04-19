@@ -1,7 +1,6 @@
 import {Blocks} from '@/blocks/Blocks'
 import {cms} from '@/cms'
 import {Hero} from '@/components/hero/Hero'
-import {Logo} from '@/components/logo/Logo'
 import {Locale} from '@/utils/locale'
 import {Entry} from 'alinea/core'
 import {notFound} from 'next/navigation'
@@ -17,7 +16,6 @@ export default async function Page({url, params}: ParamsType) {
 
   return (
     <main>
-      <Logo />
       <Hero {...page.hero} />
       <Blocks blocks={page.blocks} params={params} />
     </main>

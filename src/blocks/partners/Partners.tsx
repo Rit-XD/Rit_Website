@@ -21,6 +21,7 @@ export function Partners({block}: {block: PartnersData}) {
             <li key={index} className={styles.partners.item()}>
               {partner.icon?.src && (
                 <div className={styles.partners.item.icon()}>
+                  {/* eslint-disable-next-line jsx-a11y/alt-text */}
                   <Image width={64} height={56} src={partner.icon.src} />
                 </div>
               )}
@@ -32,11 +33,11 @@ export function Partners({block}: {block: PartnersData}) {
         </ul>
         {image?.src && (
           <div className={styles.partners.image()}>
+            {/* eslint-disable-next-line jsx-a11y/alt-text */}
             <Image
-              width={769}
-              height={576}
+              {...image}
               sizes="(max-width: 1024px) 100vw, 50vw"
-              src={image.src}
+              style={{objectFit: 'contain'}}
             />
           </div>
         )}

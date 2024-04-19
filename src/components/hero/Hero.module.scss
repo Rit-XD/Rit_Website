@@ -1,32 +1,30 @@
 @import '@/style';
 
 .hero {
-  text-align: center;
-  margin-top: 80px;
-  @include media($desktop) {
-    text-align: left;
-    margin-left: 40px;
-  }
+  position: relative;
 
-  &-title {
-    margin-bottom: 1px;
-    font-size: 24px !important;
-    color: white !important;
-  }
-  &-image {
-    position: absolute;
-    inset: 0px;
-    z-index: -1;
-    img {
-      height: 70%;
-      width: 100%;
-      object-fit: cover;
+  &-content {
+    position: relative;
+    padding-block: 75px;
+    color: white;
+
+    &-flex {
+      gap: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include media($desktop) {
+        align-items: flex-start;
+      }
     }
-  }
-  &-button {
-    margin-top: 50px;
-    @include media($desktop) {
-      margin-top: 16px;
+
+    &-logo {
+      margin-bottom: 50px;
+    }
+
+    &-title {
+      white-space: pre-line;
     }
   }
 }

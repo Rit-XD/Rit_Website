@@ -13,10 +13,6 @@
   line-height: (27/17);
   font-weight: 600;
   border: 2px solid white;
-  @include media($ipad-land) {
-    font-size: 12px;
-    letter-spacing: 0.3px;
-  }
 
   @media (hover: hover) {
     &:hover,

@@ -1,26 +1,38 @@
 {
+  "_id": "2d2etqKVfWFO8kR7I60AZO7EBjs",
+  "_type": "Home",
+  "_index": "a0",
+  "_i18nId": "2d2etpnuGHZnFj3K067nnLsDMoI",
+  "_seeded": "/nl/index.json",
+  "_root": "pages",
   "title": "Homepage",
   "hero": {
+    "image": {},
     "title": "",
-    "image": {}
+    "button": {}
   },
   "blocks": [
     {
-      "id": "2dML1SxJTMUgpLgcjZTYe2NipR7",
-      "index": "a0",
-      "type": "Splash",
+      "_id": "2dML1SxJTMUgpLgcjZTYe2NipR7",
+      "_index": "a0",
+      "_type": "Splash",
+      "image": {
+        "_id": "2fJVfTDf8d13uJZZDlPIMYSbs08",
+        "_type": "image",
+        "_entry": "2d2exmpHg9AdCR4deuLDMjSVbxS"
+      },
       "title": "Wij vinden voor u een rit!",
       "text": "Maak een keuze...",
       "button_left": {
-        "id": "2dML8nM7WjUpu1nMJIvDMBPAsfn",
-        "type": "entry",
-        "entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+        "_id": "2dML8nM7WjUpu1nMJIvDMBPAsfn",
+        "_type": "entry",
+        "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
         "label": ""
       },
       "button_right": {
-        "id": "2dML9CgB2iVq8xk7LcKWYeU4otH",
-        "type": "entry",
-        "entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS"
+        "_id": "2dML9CgB2iVq8xk7LcKWYeU4otH",
+        "_type": "entry",
+        "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS"
       }
     }
   ],
@@ -32,13 +44,5 @@
       "image": {},
       "description": ""
     }
-  },
-  "@alinea": {
-    "entryId": "2d2etqKVfWFO8kR7I60AZO7EBjs",
-    "type": "Home",
-    "index": "a0",
-    "seeded": "/nl/index.json",
-    "i18nId": "2d2etpnuGHZnFj3K067nnLsDMoI",
-    "root": "pages"
   }
 }

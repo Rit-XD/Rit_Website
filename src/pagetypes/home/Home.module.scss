@@ -1,10 +1,5 @@
 @import '@/style';
 
-.body {
-  height: 100vh;
-  background-image: url('../../../public/background_splash.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
+.home {
+  position: relative;
 }

@@ -8,14 +8,12 @@
   font-family: var(--sourceSerifPro);
 
   &.mod-h1 {
-    font-size: 70px;
+    font-size: 64px;
+    line-height: 1.25;
     white-space: pre-line;
-    letter-spacing: -10 / 1000em;
-    color: #000;
 
     @include media($ipad-port) {
-      font-size: 87.4px;
-      line-height: 91.21/87.4;
+      font-size: 80px;
     }
   }
 

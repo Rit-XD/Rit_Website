@@ -3,6 +3,7 @@ import {Entry} from 'alinea/core'
 
 export const SplashSchema = Config.type('Splash', {
   fields: {
+    image: Field.image('Image'),
     title: Field.text('Title', {multiline: true}),
     text: Field.text('Text'),
     button_left: Field.entry('Button', {

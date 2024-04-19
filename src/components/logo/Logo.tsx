@@ -17,13 +17,9 @@ type LogoProps = {
 
 export const Logo: React.FC<LogoProps> = ({className}) => {
   return (
-    <div className={styles.container()}>
-      <Link href={`/`} className={styles.logo.with(className)()}>
-        <div className={styles.logoContainer()}>
-          <Image {...logo} alt="Rit" />
-          <p>Revolution in Transport.</p>
-        </div>
-      </Link>
-    </div>
+    <Link href="/" className={styles.logo.with(className)()}>
+      <Image {...logo} alt="Rit" />
+      <p className={styles.logo.label()}>Revolution in Transport.</p>
+    </Link>
   )
 }
