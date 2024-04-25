@@ -3,7 +3,7 @@
 import {FooterSchema} from '@/components/footer/Footer.schema'
 import {Container} from '@/ui/Container'
 import {WebText} from '@/ui/WebText'
-import {Locale} from '@/utils/locale'
+import {Locale, defaultLocale, locales} from '@/utils/locale'
 import {fromModule} from '@/utils/styler/Styler'
 import {Infer} from 'alinea'
 import Link from 'next/link'
@@ -14,16 +14,19 @@ import css from './Footer.module.scss'
 
 const styles = fromModule(css)
 
-type FooterProps = {data: Infer<typeof FooterSchema>; language: Locale}
+type FooterProps = {data: Infer<typeof FooterSchema>; locale: Locale}
 
-export const Footer: React.FC<FooterProps> = ({data, language}) => {
+export const Footer: React.FC<FooterProps> = ({data, locale}) => {
+  const homeHref = locales.includes(locale) ? `/${locale}` : `/${defaultLocale}`
   const {links} = data
 
   return (
     <Container>
       <footer className={styles.footer()}>
         <div>
-          <Logo />
+          <Link href={homeHref} title="Rit">
+            <Logo />
+          </Link>
           {links?.length > 0 && (
             <div className={styles.footer.links()}>
               {links.map((link, index) => {

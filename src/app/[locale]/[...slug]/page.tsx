@@ -65,7 +65,7 @@ export default async function RegularPage({params}: ParamsType) {
       return (
         <>
           <Page url={url} params={params} />
-          <Footer data={footer} language={params.locale} />
+          <Footer data={footer} locale={params.locale} />
         </>
       )
   }

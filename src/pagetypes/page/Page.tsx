@@ -16,7 +16,7 @@ export default async function Page({url, params}: ParamsType) {
 
   return (
     <main>
-      <Hero {...page.hero} />
+      <Hero locale={params.locale} {...page.hero} />
       <Blocks blocks={page.blocks} params={params} />
     </main>
   )
