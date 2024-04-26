@@ -28,7 +28,7 @@ export const cms = createCMS({
   },
   workspaces: {
     main: Config.workspace('Rit', {
-      color: '#13bc95',
+      color: '#ED6A01',
       source: 'content',
       mediaDir: 'public',
       roots: {
