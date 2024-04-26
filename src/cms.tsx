@@ -36,7 +36,7 @@ export const cms = createCMS({
           i18n: {locales},
           contains: ['Page'],
           entries: {
-            index: Config.page(HomeSchema({title: 'Homepage'}))
+            index: Config.page(HomeSchema({title: 'Home'}))
           }
         }),
         general: Config.root('General', {
