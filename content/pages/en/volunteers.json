@@ -1,22 +1,22 @@
 {
-  "_id": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
+  "_id": "2fudSrHppaP4wsswB7ZceO8bEs2",
   "_type": "Page",
   "_index": "a0",
   "_i18nId": "2dML7LmGoZ9VW8pE9NerzgN8e5p",
   "_root": "pages",
-  "title": "Vrijwilligers",
+  "title": "Volunteers",
   "hero": {
     "image": {
-      "_id": "2fueIgpEi5SPwLCYSPpjlwsGGa1",
+      "_id": "2fuerDh9wHbB3X5v6jWVwhbPZtf",
       "_type": "image",
       "_entry": "2fueIec9WqRbFMhkwKBjm515MlR"
     },
-    "title": "Rij voor Verandering!",
+    "title": "Drive for Change!",
     "button": {
       "_id": "2fGbhsVB8PAHCniFKJZZj0FMKqg",
       "_type": "entry",
       "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
-      "label": "Registreer nu"
+      "label": "Register now"
     }
   },
   "blocks": [
@@ -24,8 +24,12 @@
       "_id": "2fGbjezZzgMO4zvrlezsH1P2oxT",
       "_index": "a0",
       "_type": "Advantages",
-      "title": "Wat kan je van het vrijwilligerswerk verwachten?",
-      "image": {},
+      "title": "What can you expect from volunteering?",
+      "image": {
+        "_id": "2fufINbEa9ISWEanqOgWggiiIQ0",
+        "_type": "image",
+        "_entry": "2fufIPt7wFsJLk4iAkufSIOaEBR"
+      },
       "advantages": [
         {
           "_id": "2fGboJOst5XaolCXayUUdEpkAzS",
@@ -36,7 +40,7 @@
             "_type": "image",
             "_entry": "2dgLmnVlnhIpqbxGm04HBlF7qdN"
           },
-          "description": "Bekijk de lijst van aanvragen voor een rit en accepteer je eerste rit"
+          "description": "Review the list of ride requests and accept your first ride"
         },
         {
           "_id": "2fGbrcwRlMAs3fr8sK1e6o5EJvs",
@@ -47,7 +51,7 @@
             "_type": "image",
             "_entry": "2dgLmiOTH61HOeBgZhqAjmQoPxa"
           },
-          "description": "Ga naar de aangewezen auto op het aangewezen tijdstip\nen wacht op de passagier"
+          "description": "Head to the assigned vehicle at the specified time and await the passenger"
         },
         {
           "_id": "2fGbteBw2e47P5D4b0MNtT0v6pd",
@@ -58,7 +62,7 @@
             "_type": "image",
             "_entry": "2fGc21rFTzF3kuXfQ4FwabICw5z"
           },
-          "description": "Breng de passagier naar zijn bestemming en wacht eventueel om\nde passagier terug te voeren "
+          "description": "Transport the passenger to their destination and optionally wait to return them if needed"
         },
         {
           "_id": "2fGc3qmrOQOiX62eBMIzBv2Maf7",
@@ -69,7 +73,7 @@
             "_type": "image",
             "_entry": "2fGcDVrlcRjlVqaXsJKev2yo7LK"
           },
-          "description": "Parkeer de wagen op de plaats waar je deze hebt opgehaald"
+          "description": "Park the vehicle in the same location where you picked it up"
         }
       ]
     },
@@ -77,7 +81,7 @@
       "_id": "2fGcV9ntXdM6Lw40G3DanjhRDDQ",
       "_index": "a1",
       "_type": "Partners",
-      "title": "Om vrijwilliger te worden heb je het volgende nodig:",
+      "title": "To become a volunteer, you will need the following:",
       "image": {
         "_id": "2fJXzuxpQct4UiNLs6XuSkqmGuz",
         "_type": "image",
@@ -93,7 +97,7 @@
             "_type": "image",
             "_entry": "2doZXYSI6slR8sJxB5J2dmY9Wdf"
           },
-          "description": "Een geldig rijbewijs en \nbestuurderspas"
+          "description": "A valid driver's license and driver's permit"
         },
         {
           "_id": "2fGdIeOymvNLt9z26NhvUsMx1cS",
@@ -104,7 +108,7 @@
             "_type": "image",
             "_entry": "2doZXabbs0Nlp1OnS0sj7gRs8dR"
           },
-          "description": "Vrije tijd die je wil \nspenderen aan iets goed"
+          "description": "Spare time you're willing to dedicate to something good"
         },
         {
           "_id": "2fGdKoD7qpcpReKkVBjOYS7XBnp",
@@ -115,7 +119,7 @@
             "_type": "image",
             "_entry": "2fGdNQITYX64THUBLEmX0olNyJ6"
           },
-          "description": "Onze mobiele\napplicatie"
+          "description": "Our mobile application"
         },
         {
           "_id": "2fGdNlkVO3lZAtmHLqPT2CdXQuz",
@@ -126,7 +130,7 @@
             "_type": "image",
             "_entry": "2fGdQWkSA5RaZCH7CROAAIgjSW1"
           },
-          "description": "Een passie om \nmensen te helpen"
+          "description": "A passion for helping other people"
         }
       ]
     },
@@ -134,13 +138,13 @@
       "_id": "2fGdtlBskpdDxNgsCKFcWIoysEX",
       "_index": "a2",
       "_type": "Cta",
-      "title": "Geïnteresseerd?",
-      "description": "Heb je interesse om te starten als vrijwilliger?\nAarzel dan zeker niet en download de app!",
+      "title": "Interested?",
+      "description": "\"If you're interested in starting as a volunteer, \ndon't hesitate and download the app now!\"",
       "button": {
         "_id": "2fGdz3jGKEw26Cc4qnq4VXYl4nl",
         "_type": "entry",
         "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
-        "label": "Ga nu aan de slag"
+        "label": "Go to work!"
       },
       "image": {
         "_id": "2fGe2PrHrn9K2PmuL6Wb0gzD5hO",

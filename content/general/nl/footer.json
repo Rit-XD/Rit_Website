@@ -6,7 +6,76 @@
   "_seeded": "/nl/footer.json",
   "_root": "general",
   "title": "Footer",
-  "description": [],
-  "navigation": [],
-  "links": []
+  "navigation": [
+    {
+      "_id": "2fuWjdlvDvfUrt1MzvrxUKUW6m9",
+      "_index": "a0",
+      "_type": "entry",
+      "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+      "label": ""
+    },
+    {
+      "_id": "2fuWeqQtjZVaWKwTc3FLmBC7nMa",
+      "_index": "a1",
+      "_type": "url",
+      "_url": "Verwachtingen",
+      "_title": "",
+      "_target": "_blank",
+      "label": ""
+    },
+    {
+      "_id": "2fuWhB9fhtstDV8pNptUMiwfgkB",
+      "_index": "a2",
+      "_type": "url",
+      "_url": "Informatie",
+      "_title": "",
+      "_target": "_self",
+      "label": ""
+    },
+    {
+      "_id": "2fuWje4J3U9eM6UVlQ6dTGnTb5j",
+      "_index": "a3",
+      "_type": "entry",
+      "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
+      "label": ""
+    },
+    {
+      "_id": "2fuWm8B28fLJ7DFoV84QmVcP20P",
+      "_index": "a4",
+      "_type": "url",
+      "_url": "Verwachtingen",
+      "_title": "",
+      "_target": "_self",
+      "label": ""
+    },
+    {
+      "_id": "2fuWpSwhFpKTVEPowYxrMXYexx7",
+      "_index": "a5",
+      "_type": "url",
+      "_url": "Benodigdheden",
+      "_title": "",
+      "_target": "_self",
+      "label": ""
+    }
+  ],
+  "links": [
+    {
+      "_id": "2fuX91aYgTWrtiOixHfIhm51fBo",
+      "_index": "a0",
+      "_type": "url",
+      "_url": "Ga aan de slag",
+      "_title": "",
+      "_target": "_blank",
+      "label": ""
+    },
+    {
+      "_id": "2fuXA2fz7MbftPW20TvS4fW3G9B",
+      "_index": "a1",
+      "_type": "url",
+      "_url": "contacteer ons",
+      "_title": "",
+      "_target": "_blank",
+      "label": ""
+    }
+  ]
 }

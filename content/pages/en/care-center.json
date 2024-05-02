@@ -1,22 +1,22 @@
 {
-  "_id": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+  "_id": "2fuZNxgMEPsxgZ0NEmFr92rdUi3",
   "_type": "Page",
   "_index": "a0",
   "_i18nId": "2dML5BWfnZZ3IRKVNWjsHa7YmE5",
   "_root": "pages",
-  "title": "Zorgcentra",
+  "title": "Care center",
   "hero": {
     "image": {
-      "_id": "2fuZgtm4AkQGzWUmPcvVHHTjwnD",
+      "_id": "2fudEvjRMAjl4WB5qpmykYTAfpJ",
       "_type": "image",
-      "_entry": "2fuZgxuwPzMX7EpWsXxLsbm28VA"
+      "_entry": "2fudEtaWppkkp5Excm44T4wjQno"
     },
-    "title": "Aangepast vervoer\nvoor uw zorgcentrum",
+    "title": "Adapted transportation \nfor your care center",
     "button": {
       "_id": "2dgE856ZBCyzr9cry2Ft05CtT3h",
       "_type": "entry",
       "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
-      "label": "Registreer nu"
+      "label": "Register now"
     }
   },
   "blocks": [
@@ -24,7 +24,7 @@
       "_id": "2dgLQF5Ie66pzvLZuxiLIi6TuMO",
       "_index": "a0",
       "_type": "Advantages",
-      "title": "Wat zijn de voordelen voor jullie zorginstelling?",
+      "title": "What are the benefits for your healthcare institution?",
       "image": {
         "_id": "2dgLXjz7gLvYtrjxSSLJZBuo8aJ",
         "_type": "image",
@@ -40,7 +40,7 @@
             "_type": "image",
             "_entry": "2dgLmnVlnhIpqbxGm04HBlF7qdN"
           },
-          "description": "Vraag snel en gemakkelijk ritten aan bij vrijwilligers voor rolstoel\ngebruikers"
+          "description": "Easily request rides from volunteers for wheelchair users."
         },
         {
           "_id": "2dgLoUJx9SXMnRTCfA2ElRSlLyb",
@@ -51,7 +51,7 @@
             "_type": "image",
             "_entry": "2dgLmiOTH61HOeBgZhqAjmQoPxa"
           },
-          "description": "Er staat telkens aangepast vervoer klaar voor de \nvragende rolstoel passagiers"
+          "description": "Adapted transportation is always available for wheelchair passengers in need."
         },
         {
           "_id": "2dgLobl2KNsewGcXntXpmCvuRP6",
@@ -62,7 +62,7 @@
             "_type": "image",
             "_entry": "2dgLmkzLvQPiY8ZjYLsKJ4f8Yx2"
           },
-          "description": "Geen last meer van wachtrijen bij maatschappijen voor \naangepast vervoer"
+          "description": "No more waiting in queues at adapted transportation companies."
         },
         {
           "_id": "2dgLonTVbuUMUAusobRHVCKz5Or",
@@ -73,7 +73,7 @@
             "_type": "image",
             "_entry": "2dgLmla5xxpygB2dyQL6p0zkVgv"
           },
-          "description": "Eigen vervoer moet niet meer ingezet worden voor minder \ngrote gevallen"
+          "description": "Our own transportation won't need to be used for less significant cases anymore."
         }
       ]
     },
@@ -81,7 +81,7 @@
       "_id": "2doZEFn3wii6thW2u5N1xssfDs8",
       "_index": "a1",
       "_type": "Partners",
-      "title": "Om partner van Rit te worden heb je nodig:",
+      "title": "To become a partner of Rit, you need:",
       "image": {
         "_id": "2doZJL3QFEzHoG35TC9W1U5sFxu",
         "_type": "image",
@@ -97,7 +97,7 @@
             "_type": "image",
             "_entry": "2doZXYSI6slR8sJxB5J2dmY9Wdf"
           },
-          "description": "Je bent een erkend zorgcentrum"
+          "description": "You are a recognized care center."
         },
         {
           "_id": "2doZZCmDpVg8VF3I9jg1WF1XkbH",
@@ -108,7 +108,7 @@
             "_type": "image",
             "_entry": "2dgLmkzLvQPiY8ZjYLsKJ4f8Yx2"
           },
-          "description": "Balie staat altijd klaar voor rolstoelgebruikers"
+          "description": "Your reception desk is always ready for wheelchair users."
         },
         {
           "_id": "2doZamQh70Aw68OoB63pHhcT3H2",
@@ -119,7 +119,7 @@
             "_type": "image",
             "_entry": "2doZXYZwzBso63ULGUsbPJEJzCz"
           },
-          "description": "Gegevens op onze webapp"
+          "description": "Data on our web app."
         },
         {
           "_id": "2doZbkWQ643C4XjnNnzHy4beA1s",
@@ -130,7 +130,7 @@
             "_type": "image",
             "_entry": "2doZgWBm7WKQlcxtfwIqlcsPR9o"
           },
-          "description": "Vrije parkeerplaatsen in de buurt"
+          "description": "Available parking spaces nearby."
         }
       ]
     },
@@ -138,13 +138,13 @@
       "_id": "2dofzYC4zAVsQ8vfTm8LLaZtKFx",
       "_index": "a2",
       "_type": "Cta",
-      "title": "Geïnteresseerd?",
-      "description": "Heb je interesse om onze partner te worden\nen onze dienst aan jullie klanten aan te bieden?",
+      "title": "Interested?",
+      "description": "Are you interested in becoming our partner and offering our service to your customers?",
       "button": {
         "_id": "2dogAs2NZgzmRVXUbsJMDWs3Z0q",
         "_type": "entry",
         "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
-        "label": "Neem contact op"
+        "label": "Contact us"
       },
       "image": {
         "_id": "2dogHX8kgrUzIKs6c6oqu0WUA4P",

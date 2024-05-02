@@ -1,15 +1,40 @@
 {
+  "_id": "2d2etqVudFoPtzMc5carFZ0cgLv",
+  "_type": "Home",
+  "_index": "a0",
+  "_i18nId": "2d2etpnuGHZnFj3K067nnLsDMoI",
+  "_seeded": "/en/index.json",
+  "_root": "pages",
   "title": "Home",
   "hero": {
+    "image": {},
     "title": "",
-    "text": [],
-    "image": {
-      "id": "2d2huvmi49WtwIMay19Bd4QJhhD",
-      "type": "image",
-      "entry": "2d2exmpHg9AdCR4deuLDMjSVbxS"
-    }
+    "button": {}
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "_id": "2fubsMvGQ7PhkE0gS4nMPrDrG4t",
+      "_index": "a0",
+      "_type": "Splash",
+      "image": {
+        "_id": "2fubzrsYc0ttKDoU3Yr2m1RcZfY",
+        "_type": "image",
+        "_entry": "2fuZgxuwPzMX7EpWsXxLsbm28VA"
+      },
+      "title": "Revolution In Transport!",
+      "text": "How do you commit to improving wheelchair-accessible transportation?",
+      "button_left": {
+        "_id": "2fubvldRWT7SGHJOnUpqlJKQFBA",
+        "_type": "entry",
+        "_entry": "2fuZNxgMEPsxgZ0NEmFr92rdUi3"
+      },
+      "button_right": {
+        "_id": "2fuf3sO21slnIARQG5KwTV4gnN6",
+        "_type": "entry",
+        "_entry": "2fudSrHppaP4wsswB7ZceO8bEs2"
+      }
+    }
+  ],
   "metadata": {
     "title": "",
     "description": "",
@@ -18,13 +43,5 @@
       "image": {},
       "description": ""
     }
-  },
-  "@alinea": {
-    "entryId": "2d2etqVudFoPtzMc5carFZ0cgLv",
-    "type": "Home",
-    "index": "a0",
-    "seeded": "/en/index.json",
-    "i18nId": "2d2etpnuGHZnFj3K067nnLsDMoI",
-    "root": "pages"
   }
 }
