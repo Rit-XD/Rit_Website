@@ -1,0 +1,151 @@
+{
+  "_id": "2hSu1esZBWwMTiabFSt3Bo8VD9S",
+  "_type": "Page",
+  "_index": "a0",
+  "_i18nId": "2hSu1bmpW8RbWXVNZvi4lAA7eYL",
+  "_root": "pages",
+  "title": "Privacy Policy",
+  "hero": {
+    "image": {},
+    "title": "Privacybeleid",
+    "button": {}
+  },
+  "blocks": [
+    {
+      "_id": "2hSu623QjQN5s831nEC5U6g1Mdh",
+      "_index": "a0",
+      "_type": "Text",
+      "text": [
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Dit privacybeleid is van toepassing op de Rit app (hierbij aangeduid als “Applicatie”) voor mobiele apparaten die is gemaakt door Rit (hierbij aangeduid als “Dienstverlener”) als een Gratis dienst. Deze dienst is bedoeld voor gebruik “AS IS”."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Informatieverzameling en gebruik"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "De Applicatie verzamelt informatie wanneer u deze downloadt en gebruikt. Deze informatie kan informatie bevatten zoals"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Het Internet Protocol adres (bijv. IP-adres) van uw apparaat"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "De pagina's van de Applicatie die u bezoekt, de tijd en datum van uw bezoek, de tijd die u op deze pagina's doorbrengt"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "De tijd doorgebracht op de Applicatie"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Het besturingssysteem dat u gebruikt op uw mobiele apparaat"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "De Applicatie verzamelt de locatie van uw apparaat, waardoor de Service Provider uw geografische locatie bij benadering kan bepalen en op onderstaande manieren kan gebruiken:"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Geolocatiediensten: De Service Provider gebruikt locatiegegevens om functies te bieden zoals gepersonaliseerde content, relevante aanbevelingen en locatiegebaseerde diensten."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Analytics en verbeteringen: Geaggregeerde en geanonimiseerde locatiegegevens helpen de Dienstverlener om gebruikersgedrag te analyseren, trends te identificeren en de algehele prestaties en functionaliteit van de Applicatie te verbeteren."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Diensten van derden: Periodiek kan de Dienstverlener geanonimiseerde locatiegegevens verzenden naar externe diensten. Deze diensten helpen hen de Applicatie te verbeteren en hun aanbod te optimaliseren."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "De Service Provider kan de door u verstrekte informatie gebruiken om van tijd tot tijd contact met u op te nemen om u te helpen de Applicatie te verbeteren en hun aanbod te optimaliseren."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "",
+    "description": "",
+    "openGraph": {
+      "title": "",
+      "image": {},
+      "description": ""
+    }
+  }
+}

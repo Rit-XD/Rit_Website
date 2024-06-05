@@ -1,0 +1,411 @@
+{
+  "_id": "2hSuJWKNqATtkfDUSKRvTPRVcby",
+  "_type": "Page",
+  "_index": "a0",
+  "_i18nId": "2hSu1bmpW8RbWXVNZvi4lAA7eYL",
+  "_root": "pages",
+  "title": "Privacy Policy",
+  "hero": {
+    "image": {},
+    "title": "Privacybeleid",
+    "button": {}
+  },
+  "blocks": [
+    {
+      "_id": "2hSu623QjQN5s831nEC5U6g1Mdh",
+      "_index": "a0",
+      "_type": "Text",
+      "text": [
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "This privacy policy applies to the Rit app (hereby referred to as \"Application\") for mobile devices that was created by Rit (hereby referred to as \"Service Provider\") as a Free service. This service is intended for use \"AS IS\"."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Information Collection and Use"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Application collects information when you download and use it. This information may include information such as"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Your device's Internet Protocol address (e.g. IP address)"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The pages of the Application that you visit, the time and date of your visit, the time spent on those pages"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The time spent on the Application"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The operating system you use on your mobile device"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to Email, username, address, age, password, phone. The information that the Service Provider request will be retained by them and used as described in this privacy policy."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Third Party Access"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Google Play Services"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Expo"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Service Provider may disclose User Provided and Automatically Collected Information:"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "as required by law, such as to comply with a subpoena, or similar legal process;"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Opt-Out Rights"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Data Retention Policy"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at info@rit.care and they will respond in a reasonable time."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Children"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (info@rit.care) so that they will be able to take the necessary actions."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Security"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Changes"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "This privacy policy is effective as of 2024-06-05"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Your Consent"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us."
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Contact Us"
+            }
+          ]
+        },
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at info@rit.care."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "",
+    "description": "",
+    "openGraph": {
+      "title": "",
+      "image": {},
+      "description": ""
+    }
+  }
+}
