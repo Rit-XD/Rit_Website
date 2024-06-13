@@ -1,15 +1,17 @@
 @import '@/style';
 
 .title {
-  margin-top: 160px;
-  font-size: 20px;
+  margin-top: 120px;
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
   @include media($desktop) {
-    margin-top: 150px;
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 }
 .advantages {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -23,7 +25,7 @@
   &-image {
     width: 100%;
     @include media($desktop) {
-      width: 70%;
+      width: 100%;
     }
     img {
       margin: auto;
@@ -50,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 24px;
     max-width: 300px;
     @include media($desktop) {
       flex-direction: row;
@@ -58,7 +60,7 @@
       max-width: 100%;
     }
     &-icon {
-      font-size: 40px;
+      font-size: 20px;
     }
 
     &-description {
