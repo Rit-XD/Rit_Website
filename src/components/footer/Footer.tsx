@@ -19,11 +19,9 @@ export const Footer: React.FC<FooterProps> = ({data, locale}) => {
   const homeHref = locales.includes(locale) ? `/${locale}` : `/${defaultLocale}`
   const {links, navigation} = data
 
-  console.log(data)
-
   return (
-    <footer className={styles.footer()}>
-      <div>
+    <div className={styles.container()}>
+      <footer className={styles.footer()}>
         <Link className={styles.footer.logo()} href={homeHref} title="Rit">
           <Image {...logo} alt="Rit" />
           <p className={styles.logo.label()}>Revolution in Transport.</p>
@@ -77,10 +75,10 @@ export const Footer: React.FC<FooterProps> = ({data, locale}) => {
             })}
           </div>
         )}
-        <p className={styles.footer.copy()}>
-          &copy; Rit {new Date().getFullYear()}
-        </p>
-      </div>
-    </footer>
+      </footer>
+      <p className={styles.footer.copy()}>
+        &copy; Rit {new Date().getFullYear()}
+      </p>
+    </div>
   )
 }
