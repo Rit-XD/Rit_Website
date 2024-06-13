@@ -32,12 +32,11 @@ export const Footer: React.FC<FooterProps> = ({data, locale}) => {
           <nav className={styles.footer.navigation()}>
             {navigation.map((item, index) => {
               return (
-                <div className={styles.footer.navigation.item()}>
+                <div key={index} className={styles.footer.navigation.item()}>
                   <div>
                     <Link
                       className={styles.footer.navigation.item.title()}
                       href={item.title.href}
-                      key={index}
                     >
                       {item.title.fields.label ||
                         item.title.title ||
