@@ -97,9 +97,6 @@
 .logo {
   position: relative;
 
-  @include media($desktop) {
-  }
-
   &-label {
     padding-top: 16px;
     font-family: 'CoconPro', sans-serif;
