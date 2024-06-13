@@ -39,6 +39,7 @@ export const NotFoundClient: React.FC<{
             <WebText doc={text} className={styles.notfound.content.text()} />
           )}
           <Button
+            mod={'dark'}
             href={button?.href || '/'}
             className={styles.notfound.content.button()}
           >
