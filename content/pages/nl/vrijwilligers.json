@@ -25,7 +25,11 @@
       "_index": "a0",
       "_type": "Advantages",
       "title": "Wat kan je van het vrijwilligerswerk verwachten?",
-      "image": {},
+      "image": {
+        "_id": "2hqJOSUbgqHwmYD7Y4V2utDhMfb",
+        "_type": "image",
+        "_entry": "2fufIPt7wFsJLk4iAkufSIOaEBR"
+      },
       "advantages": [
         {
           "_id": "2fGboJOst5XaolCXayUUdEpkAzS",

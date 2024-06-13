@@ -82,7 +82,11 @@
       "_index": "a1",
       "_type": "Partners",
       "title": "To become a volunteer, you will need the following:",
-      "image": {},
+      "image": {
+        "_id": "2hqJKF6DBiKtBotW7RYzaKMeIBB",
+        "_type": "image",
+        "_entry": "2fGdG1BjJF61Bc5HOgO1UwcIc5j"
+      },
       "partners": [
         {
           "_id": "2fGdGMOwoBpNhrdCEWuQ2WQsvqK",
