@@ -26,9 +26,9 @@
       "_type": "Advantages",
       "title": "What can you expect from volunteering?",
       "image": {
-        "_id": "2fufINbEa9ISWEanqOgWggiiIQ0",
+        "_id": "2hskQWZqIn4KixCSL6KCzhkMc7m",
         "_type": "image",
-        "_entry": "2fufIPt7wFsJLk4iAkufSIOaEBR"
+        "_entry": "2hskQWdKEWupnvQ2dnpcp1NewiA"
       },
       "advantages": [
         {
@@ -36,9 +36,9 @@
           "_index": "a0",
           "_type": "Advantage",
           "icon": {
-            "_id": "2fGbqgCiOZ6u55dLNjMKrvwKDP7",
+            "_id": "2hskZT9P5cRretxQHSTqT6tQnhS",
             "_type": "image",
-            "_entry": "2dgLmnVlnhIpqbxGm04HBlF7qdN"
+            "_entry": "2hskZUiKB6cj6D9zOVzSapa2ENP"
           },
           "description": "Review the list of ride requests and accept your first ride"
         },
@@ -47,9 +47,9 @@
           "_index": "a1",
           "_type": "Advantage",
           "icon": {
-            "_id": "2fGbsYKYJhEYN6hbixn9rIqb5mw",
+            "_id": "2hskc3RzjFwZMZVOlEP8ILrs4tG",
             "_type": "image",
-            "_entry": "2dgLmiOTH61HOeBgZhqAjmQoPxa"
+            "_entry": "2hskbpGjrQoGC2CYaqw5ZE1NZrw"
           },
           "description": "Head to the assigned vehicle at the specified time and await the passenger"
         },
@@ -58,9 +58,9 @@
           "_index": "a2",
           "_type": "Advantage",
           "icon": {
-            "_id": "2fGc23f3EWKaR6xPr7QD5nkfVlY",
+            "_id": "2hskiqVp4b74AQ9g41F7Vtq8JGL",
             "_type": "image",
-            "_entry": "2fGc21rFTzF3kuXfQ4FwabICw5z"
+            "_entry": "2hskiwpkrlU57KP7OR3JVBQEN4t"
           },
           "description": "Transport the passenger to their destination and optionally wait to return them if needed"
         },
@@ -69,9 +69,9 @@
           "_index": "a3",
           "_type": "Advantage",
           "icon": {
-            "_id": "2fGcDhBoXXc63xksaInrxiW8b2Z",
+            "_id": "2hskmJPBMVGnzgAnHZn7N4CSvf7",
             "_type": "image",
-            "_entry": "2fGcDVrlcRjlVqaXsJKev2yo7LK"
+            "_entry": "2hskmIjz5LoFyPzDRJMZsGy0xsh"
           },
           "description": "Park the vehicle in the same location where you picked it up"
         }
@@ -83,9 +83,9 @@
       "_type": "Partners",
       "title": "To become a volunteer, you will need the following:",
       "image": {
-        "_id": "2hqJKF6DBiKtBotW7RYzaKMeIBB",
+        "_id": "2hskVqxl3Pu9ZIsFlutIM8xeaCy",
         "_type": "image",
-        "_entry": "2fGdG1BjJF61Bc5HOgO1UwcIc5j"
+        "_entry": "2hs3mOVX3yuvuifzCSb25N2VGJE"
       },
       "partners": [
         {

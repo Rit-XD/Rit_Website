@@ -12,7 +12,7 @@
   padding-block: 37px;
   flex-direction: column;
 
-  @include media($desktop) {
+  @include media($ipad-port) {
     flex-direction: row;
     justify-content: space-between;
     padding-inline: 60px;

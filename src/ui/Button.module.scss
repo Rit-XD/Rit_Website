@@ -9,10 +9,13 @@
   border-radius: 50px;
   transition: 0.3s ease-out;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
   line-height: (27/17);
   font-weight: 600;
   border: 2px solid white;
+  @include media($ipad-land) {
+    font-size: 20px;
+  }
 
   &.mod-dark {
     border-color: #00202f;

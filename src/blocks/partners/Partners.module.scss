@@ -13,6 +13,11 @@
   font-size: 24px;
   font-weight: bold;
   text-align: left;
+
+  @include media($ipad-port) {
+    text-align: center;
+  }
+
   @include media($desktop) {
     text-align: center;
   }
@@ -21,12 +26,14 @@
   margin: 0 auto;
   max-width: 1440px;
   position: relative;
+  margin-top: 10px;
 
-  @include media($ipad-land) {
+  @include media($ipad-port) {
+    display: flex;
     max-width: 1248px;
     padding-inline: 60px;
+    align-items: center;
   }
-  margin-top: 10px;
 
   @include media($desktop) {
     display: flex;
@@ -59,11 +66,16 @@
     align-items: left;
     flex-wrap: wrap;
     gap: 30px;
+
+    @include media($ipad-port) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
     @include media($desktop) {
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding-top: 0;
-      width: 70%;
       align-items: center;
       flex-direction: column;
       justify-content: center;
@@ -75,6 +87,13 @@
     text-align: left;
     gap: 10px;
     max-width: 300px;
+
+    @include media($ipad-port) {
+      display: grid;
+      justify-items: center;
+      text-align: center;
+    }
+
     @include media($desktop) {
       display: grid;
       align-content: space-between;

@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   margin-top: 80px;
-  @include media($desktop) {
+  @include media($ipad-port) {
     flex-direction: row;
     text-align: left;
     justify-content: space-around;
@@ -14,12 +14,15 @@
     margin-left: 40px;
     &-image {
       border-radius: 10%;
+      @include media($ipad-port) {
+        width: 40%;
+      }
     }
   }
   &-content {
     margin-bottom: 24px;
     text-align: left;
-    @include media($desktop) {
+    @include media($ipad-port) {
       display: flex;
       flex-direction: column;
       max-width: 286px;
@@ -28,8 +31,8 @@
       padding-bottom: 20px;
       font-size: 24px;
       text-align: left;
-      @include media($desktop) {
-        text-align: center;
+      @include media($ipad-port) {
+        text-align: left;
       }
     }
 

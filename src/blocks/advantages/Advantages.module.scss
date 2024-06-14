@@ -5,6 +5,9 @@
   font-size: 24px;
   font-weight: bold;
   text-align: left;
+  @include media($ipad-port) {
+    text-align: center;
+  }
   @include media($desktop) {
     margin-top: 80px;
     margin-bottom: 40px;
@@ -16,10 +19,15 @@
   text-align: left;
   flex-wrap: wrap;
   margin-bottom: 60px;
+
+  @include media($ipad-port) {
+    flex-wrap: nowrap;
+    margin-top: 40px;
+  }
+
   @include media($desktop) {
-    margin-top: 20px;
     align-items: center;
-    justify-content: space-between;
+
     flex-wrap: nowrap;
     padding: 0;
   }
