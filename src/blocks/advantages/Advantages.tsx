@@ -31,7 +31,7 @@ export function Advantages({block}: {block: AdvantagesData}) {
             <li key={index} className={styles.advantages.item()}>
               {advantage.icon?.src && (
                 <div className={styles.advantages.item.icon()}>
-                  <Image width={34} height={26} src={advantage.icon.src} />
+                  <Image width={44} height={36} src={advantage.icon.src} />
                 </div>
               )}
               <p className={styles.advantages.item.description()}>

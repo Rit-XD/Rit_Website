@@ -18,17 +18,18 @@
   }
   &-content {
     margin-bottom: 24px;
+    text-align: left;
     @include media($desktop) {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       max-width: 286px;
     }
     &-title {
       padding-bottom: 20px;
-      font-size: 36px;
-      text-align: center;
+      font-size: 24px;
+      text-align: left;
       @include media($desktop) {
+        text-align: center;
       }
     }
 
@@ -42,6 +43,7 @@
       background-color: #00202f;
       border: 2px solid #00202f !important;
       margin-top: 0;
+      text-align: center;
 
       &:hover,
       &:focus-visible {

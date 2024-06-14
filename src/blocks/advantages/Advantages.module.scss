@@ -1,22 +1,23 @@
 @import '@/style';
 
 .title {
-  margin-top: 120px;
+  margin-top: 60px;
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   @include media($desktop) {
     margin-top: 80px;
     margin-bottom: 40px;
+    text-align: center;
   }
 }
 .advantages {
-  margin-top: 20px;
   display: flex;
-  justify-content: center;
+  text-align: left;
   flex-wrap: wrap;
   margin-bottom: 60px;
   @include media($desktop) {
+    margin-top: 20px;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -24,15 +25,17 @@
   }
   &-image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     @include media($desktop) {
-      width: 100%;
+      width: 70%;
     }
     img {
       margin: auto;
       width: 100%;
       max-width: 70%;
       object-fit: contain;
+      aspect-ratio: 4/3;
       height: auto;
       max-height: 400px;
     }
@@ -40,7 +43,7 @@
   &-list {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 30px;
     @include media($desktop) {
@@ -50,9 +53,9 @@
   }
   &-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+    text-align: left;
     gap: 24px;
     max-width: 300px;
     @include media($desktop) {

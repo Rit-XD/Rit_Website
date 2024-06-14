@@ -12,8 +12,9 @@
 .title {
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   @include media($desktop) {
+    text-align: center;
   }
 }
 .partners {
@@ -36,6 +37,7 @@
   }
   &-image {
     width: 100%;
+    margin-top: 60px;
     @include media($desktop) {
       width: 70%;
     }
@@ -52,28 +54,32 @@
     padding-top: 30px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
     flex-wrap: wrap;
     gap: 30px;
     @include media($desktop) {
       display: grid;
       grid-template-columns: 1fr 1fr;
-
       padding-top: 0;
       width: 70%;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
     }
   }
   &-item {
-    display: grid;
-    justify-items: center;
-    text-align: center;
+    display: flex;
+    justify-items: left;
+    text-align: left;
     gap: 10px;
     max-width: 300px;
     @include media($desktop) {
+      display: grid;
       align-content: space-between;
       max-width: 100%;
+      justify-items: center;
     }
     &-icon {
       font-size: 40px;
