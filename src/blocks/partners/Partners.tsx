@@ -22,7 +22,7 @@ export function Partners({block}: {block: PartnersData}) {
               {partner.icon?.src && (
                 <div className={styles.partners.item.icon()}>
                   {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                  <Image width={34} height={26} src={partner.icon.src} />
+                  <Image width={44} height={36} src={partner.icon.src} />
                 </div>
               )}
               <p className={styles.partners.item.description()}>

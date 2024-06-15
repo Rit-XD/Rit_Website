@@ -6,18 +6,6 @@
   "_seeded": "/nl/footer.json",
   "_root": "general",
   "title": "Footer",
-  "description": [
-    {
-      "_type": "paragraph",
-      "textAlign": "left",
-      "content": [
-        {
-          "_type": "text",
-          "text": "Dikjke penis"
-        }
-      ]
-    }
-  ],
   "navigation": [
     {
       "_id": "2hpF5G48xOxnI9CoWDYxnDE2Sdt",
@@ -30,17 +18,21 @@
       },
       "links": [
         {
-          "_id": "2hpFBtpOerEeUhfvGNMFApBcjAM",
+          "_id": "2huvLOYkaYuEXF1r1qSlftA15tY",
           "_index": "a0",
-          "_type": "entry",
-          "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
           "label": "Verwachtingen"
         },
         {
-          "_id": "2hpFBsrIHrEKXxLtqFPNZKDtQ7b",
+          "_id": "2huvNV1J3qwuuiPBDESUTrTSEp6",
           "_index": "a1",
-          "_type": "entry",
-          "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
           "label": "Informatie"
         }
       ]
@@ -56,17 +48,21 @@
       },
       "links": [
         {
-          "_id": "2hpFGkSkVmc96amS68GePWBq3s9",
+          "_id": "2huvQswWVyrLTsbHoeJLxFG4Ekv",
           "_index": "a0",
-          "_type": "entry",
-          "_entry": "2d2etpxuqj9Pskn6cIeT3rf9xIJ",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
           "label": "Verwachtingen"
         },
         {
-          "_id": "2hpFGjBdVV25sFakfaCC1198HjX",
+          "_id": "2huvSViNhgZXvg6OqPkkMH9wpMZ",
           "_index": "a1",
-          "_type": "entry",
-          "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
           "label": "Benodigdheden"
         }
       ]

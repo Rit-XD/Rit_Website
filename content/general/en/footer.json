@@ -1,10 +1,92 @@
 {
-  "@alinea": {
-    "entryId": "2d2etrzPCOK51ac33HgCe7B7Ms9",
-    "type": "Footer",
-    "index": "a1",
-    "seeded": "/en/footer.json",
-    "i18nId": "2d2etm2kaD5g5FjOrOEvxGbzwKz",
-    "root": "general"
-  }
+  "_id": "2d2etrzPCOK51ac33HgCe7B7Ms9",
+  "_type": "Footer",
+  "_index": "a1",
+  "_i18nId": "2d2etm2kaD5g5FjOrOEvxGbzwKz",
+  "_seeded": "/en/footer.json",
+  "_root": "general",
+  "title": "Footer",
+  "navigation": [
+    {
+      "_id": "2huuLjEdKeXK36i2ABZlVEQwR23",
+      "_index": "a0",
+      "_type": "Item",
+      "title": {
+        "_id": "2huusn77VlJX5q4lT0PAJth2wEY",
+        "_type": "entry",
+        "_entry": "2dML5CD9q4tLfjk0XQhWHjm28kJ",
+        "label": "Care center"
+      },
+      "links": [
+        {
+          "_id": "2huvXn67ZfMHcPHPQaE5WfMJEji",
+          "_index": "a0",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
+          "label": "Expectations"
+        },
+        {
+          "_id": "2huvYjKWD1zC78bKiCrvGczBLre",
+          "_index": "a1",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
+          "label": "Information"
+        }
+      ]
+    },
+    {
+      "_id": "2huvcPimsJWS41lhn0RAnos4iJq",
+      "_index": "a1",
+      "_type": "Item",
+      "title": {
+        "_id": "2huvdaqvCPdFQm7xJl7XFCPMEIy",
+        "_type": "entry",
+        "_entry": "2dML7F6Ag35cTn7OJQ0XrlrDiOS",
+        "label": "Volunteers"
+      },
+      "links": [
+        {
+          "_id": "2huviDqZgszjA5GUdKaUgBDuQ2A",
+          "_index": "a0",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
+          "label": "Expectations"
+        },
+        {
+          "_id": "2huvkpGyhqEergAuXIk9EaxOVKI",
+          "_index": "a1",
+          "_type": "url",
+          "_url": "#",
+          "_title": "",
+          "_target": "_self",
+          "label": "Supplies"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "_id": "2huxMPSvQTnrpv1iWVZgljvdaD3",
+      "_index": "a0",
+      "_type": "url",
+      "_title": "Go to work",
+      "_target": "_self",
+      "label": "Go to work"
+    },
+    {
+      "_id": "2huxM3PtjqmycvDkJGTNeDHddYQ",
+      "_index": "a1",
+      "_type": "url",
+      "_url": "",
+      "_title": "Contact us",
+      "_target": "_self",
+      "label": "Contact us"
+    }
+  ]
 }
