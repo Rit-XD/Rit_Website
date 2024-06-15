@@ -24,7 +24,7 @@
       "_id": "2dgLQF5Ie66pzvLZuxiLIi6TuMO",
       "_index": "a0",
       "_type": "Advantages",
-      "title": "What are the benefits for your healthcare institution?",
+      "title": "The benefits for your care center?",
       "image": {
         "_id": "2dgLXjz7gLvYtrjxSSLJZBuo8aJ",
         "_type": "image",
@@ -40,7 +40,7 @@
             "_type": "image",
             "_entry": "2dgLmnVlnhIpqbxGm04HBlF7qdN"
           },
-          "description": "Easily request rides from volunteers for wheelchair users."
+          "description": "Quickly and easily request rides from volunteers for your customers with or without a wheelchair."
         },
         {
           "_id": "2dgLoUJx9SXMnRTCfA2ElRSlLyb",
@@ -51,7 +51,7 @@
             "_type": "image",
             "_entry": "2dgLmiOTH61HOeBgZhqAjmQoPxa"
           },
-          "description": "Adapted transportation is always available for wheelchair passengers in need."
+          "description": "Adapted transport that can be used by volunteers as well as friends and family."
         },
         {
           "_id": "2dgLobl2KNsewGcXntXpmCvuRP6",
@@ -62,7 +62,7 @@
             "_type": "image",
             "_entry": "2dgLmkzLvQPiY8ZjYLsKJ4f8Yx2"
           },
-          "description": "No more waiting in queues at adapted transportation companies."
+          "description": "I am no longer dependent on fixed opening hours or days. Decide for yourself when a ride is planned."
         },
         {
           "_id": "2dgLonTVbuUMUAusobRHVCKz5Or",
@@ -73,7 +73,7 @@
             "_type": "image",
             "_entry": "2dgLmla5xxpygB2dyQL6p0zkVgv"
           },
-          "description": "Our own transportation won't need to be used for less significant cases anymore."
+          "description": "Use your own transport for Urgent incidents. And Rit vehicles for medical or recreational trips."
         }
       ]
     },
@@ -81,7 +81,7 @@
       "_id": "2doZEFn3wii6thW2u5N1xssfDs8",
       "_index": "a1",
       "_type": "Partners",
-      "title": "To become a partner of Rit, you need:",
+      "title": "Become a partner of Rit:",
       "image": {
         "_id": "2doZJL3QFEzHoG35TC9W1U5sFxu",
         "_type": "image",
@@ -97,7 +97,7 @@
             "_type": "image",
             "_entry": "2doZXYSI6slR8sJxB5J2dmY9Wdf"
           },
-          "description": "You are a recognized care center."
+          "description": "Your organization is a recognized healthcare institution."
         },
         {
           "_id": "2doZZCmDpVg8VF3I9jg1WF1XkbH",
@@ -108,7 +108,7 @@
             "_type": "image",
             "_entry": "2dgLmkzLvQPiY8ZjYLsKJ4f8Yx2"
           },
-          "description": "Your reception desk is always ready for wheelchair users."
+          "description": "There is a reception desk where customers can count on you."
         },
         {
           "_id": "2doZamQh70Aw68OoB63pHhcT3H2",
@@ -119,7 +119,7 @@
             "_type": "image",
             "_entry": "2doZXYZwzBso63ULGUsbPJEJzCz"
           },
-          "description": "Data on our web app."
+          "description": "Register on the Rit platform with the details of the care center."
         },
         {
           "_id": "2doZbkWQ643C4XjnNnzHy4beA1s",
@@ -130,7 +130,7 @@
             "_type": "image",
             "_entry": "2doZgWBm7WKQlcxtfwIqlcsPR9o"
           },
-          "description": "Available parking spaces nearby."
+          "description": "Parking spaces for the cars that are easily available at all times."
         }
       ]
     },

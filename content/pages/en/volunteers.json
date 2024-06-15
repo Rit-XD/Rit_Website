@@ -11,7 +11,7 @@
       "_type": "image",
       "_entry": "2fueIec9WqRbFMhkwKBjm515MlR"
     },
-    "title": "Drive for Change!",
+    "title": "Do you provide transport for disabled people?",
     "button": {
       "_id": "2fGbhsVB8PAHCniFKJZZj0FMKqg",
       "_type": "entry",
@@ -24,7 +24,7 @@
       "_id": "2fGbjezZzgMO4zvrlezsH1P2oxT",
       "_index": "a0",
       "_type": "Advantages",
-      "title": "What can you expect from volunteering?",
+      "title": "What can you expect?",
       "image": {
         "_id": "2hskQWZqIn4KixCSL6KCzhkMc7m",
         "_type": "image",
@@ -40,7 +40,7 @@
             "_type": "image",
             "_entry": "2hskZUiKB6cj6D9zOVzSapa2ENP"
           },
-          "description": "Review the list of ride requests and accept your first ride"
+          "description": "Get a list of upcoming rides. Accept a ride that you can ride for."
         },
         {
           "_id": "2fGbrcwRlMAs3fr8sK1e6o5EJvs",
@@ -51,7 +51,7 @@
             "_type": "image",
             "_entry": "2hskbpGjrQoGC2CYaqw5ZE1NZrw"
           },
-          "description": "Head to the assigned vehicle at the specified time and await the passenger"
+          "description": "Go to the assigned car at the specified time and wait for the passenger."
         },
         {
           "_id": "2fGbteBw2e47P5D4b0MNtT0v6pd",
@@ -62,7 +62,7 @@
             "_type": "image",
             "_entry": "2hskiwpkrlU57KP7OR3JVBQEN4t"
           },
-          "description": "Transport the passenger to their destination and optionally wait to return them if needed"
+          "description": "Transport the passenger to their destination and optionally wait to return them if needed."
         },
         {
           "_id": "2fGc3qmrOQOiX62eBMIzBv2Maf7",
@@ -73,7 +73,7 @@
             "_type": "image",
             "_entry": "2hskmIjz5LoFyPzDRJMZsGy0xsh"
           },
-          "description": "Park the vehicle in the same location where you picked it up"
+          "description": "Put the car back where you picked it up and follow the step-by-step plan to deliver it correctly."
         }
       ]
     },
@@ -81,13 +81,24 @@
       "_id": "2fGcV9ntXdM6Lw40G3DanjhRDDQ",
       "_index": "a1",
       "_type": "Partners",
-      "title": "To become a volunteer, you will need the following:",
+      "title": "To become a volunteer of Rit:",
       "image": {
         "_id": "2hskVqxl3Pu9ZIsFlutIM8xeaCy",
         "_type": "image",
         "_entry": "2hs3mOVX3yuvuifzCSb25N2VGJE"
       },
       "partners": [
+        {
+          "_id": "2fGdKoD7qpcpReKkVBjOYS7XBnp",
+          "_index": "Zz",
+          "_type": "Partners",
+          "icon": {
+            "_id": "2fGdNQ4pDojLj5DZFTQfdCNsv3H",
+            "_type": "image",
+            "_entry": "2fGdNQITYX64THUBLEmX0olNyJ6"
+          },
+          "description": "Download the mobile application in the App or Play store."
+        },
         {
           "_id": "2fGdGMOwoBpNhrdCEWuQ2WQsvqK",
           "_index": "a0",
@@ -97,7 +108,7 @@
             "_type": "image",
             "_entry": "2doZXYSI6slR8sJxB5J2dmY9Wdf"
           },
-          "description": "A valid driver's license and driver's permit"
+          "description": "You have a valid driver's license and a driver's pass."
         },
         {
           "_id": "2fGdIeOymvNLt9z26NhvUsMx1cS",
@@ -108,18 +119,7 @@
             "_type": "image",
             "_entry": "2doZXabbs0Nlp1OnS0sj7gRs8dR"
           },
-          "description": "Spare time you're willing to dedicate to something good"
-        },
-        {
-          "_id": "2fGdKoD7qpcpReKkVBjOYS7XBnp",
-          "_index": "a2",
-          "_type": "Partners",
-          "icon": {
-            "_id": "2fGdNQ4pDojLj5DZFTQfdCNsv3H",
-            "_type": "image",
-            "_entry": "2fGdNQITYX64THUBLEmX0olNyJ6"
-          },
-          "description": "Our mobile application"
+          "description": "You happily donate your time to a good deed."
         },
         {
           "_id": "2fGdNlkVO3lZAtmHLqPT2CdXQuz",
@@ -130,7 +130,7 @@
             "_type": "image",
             "_entry": "2fGdQWkSA5RaZCH7CROAAIgjSW1"
           },
-          "description": "A passion for helping other people"
+          "description": "You show your good heart and you have a passion for helping people."
         }
       ]
     },
@@ -139,7 +139,7 @@
       "_index": "a2",
       "_type": "Cta",
       "title": "Interested?",
-      "description": "\"If you're interested in starting as a volunteer, \ndon't hesitate and download the app now!\"",
+      "description": "If you're interested in starting as a volunteer, \ndon't hesitate and download the app now!",
       "button": {
         "_id": "2fGdz3jGKEw26Cc4qnq4VXYl4nl",
         "_type": "entry",

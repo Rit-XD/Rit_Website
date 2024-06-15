@@ -21,6 +21,7 @@ export const Hero: React.FC<HeroProps> = ({image, title, button, locale}) => {
   return (
     <div className={styles.hero()}>
       {image?.src && <Image {...image} fill sizes="100vw" alt="Hero" />}
+      <span className={styles.hero.overlay1()} />
       <div className={styles.hero.content()}>
         <Container>
           <div className={styles.hero.content.flex()}>
